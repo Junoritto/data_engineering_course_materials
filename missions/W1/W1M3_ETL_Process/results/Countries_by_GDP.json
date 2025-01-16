@@ -1,7 +1,7 @@
 [
     {
         "Country":"World",
-        "GDP_USD_billion":"1115,494,312",
+        "GDP_USD_billion":"115,494,312",
         "Year":"2025"
     },
     {
@@ -160,6 +160,11 @@
         "Year":"2025"
     },
     {
+        "Country":"Vietnam",
+        "GDP_USD_billion":"506,426",
+        "Year":"2025"
+    },
+    {
         "Country":"Norway",
         "GDP_USD_billion":"503,466",
         "Year":"2025"
@@ -171,12 +176,7 @@
     },
     {
         "Country":"Philippines",
-        "GDP_USD_billion":"471,516",
-        "Year":"2025"
-    },
-    {
-        "Country":"Vietnam",
-        "GDP_USD_billion":"468,400",
+        "GDP_USD_billion":"507,670",
         "Year":"2025"
     },
     {

@@ -144,16 +144,16 @@
         "Region":"Europe"
     },
     {
+        "Country":"Argentina",
+        "GDP_USD_billion":604.2,
+        "Year":"2025",
+        "Region":"South America"
+    },
+    {
         "Country":"Ireland",
         "GDP_USD_billion":587.22,
         "Year":"2025",
         "Region":"Europe"
-    },
-    {
-        "Country":"Argentina",
-        "GDP_USD_billion":574.2,
-        "Year":"2025",
-        "Region":"South America"
     },
     {
         "Country":"United Arab Emirates",
@@ -186,6 +186,12 @@
         "Region":"Asia"
     },
     {
+        "Country":"Vietnam",
+        "GDP_USD_billion":506.43,
+        "Year":"2025",
+        "Region":"Asia"
+    },
+    {
         "Country":"Norway",
         "GDP_USD_billion":503.47,
         "Year":"2025",
@@ -199,13 +205,7 @@
     },
     {
         "Country":"Philippines",
-        "GDP_USD_billion":471.52,
-        "Year":"2025",
-        "Region":"Asia"
-    },
-    {
-        "Country":"Vietnam",
-        "GDP_USD_billion":468.4,
+        "GDP_USD_billion":507.67,
         "Year":"2025",
         "Region":"Asia"
     },
@@ -217,9 +217,15 @@
     },
     {
         "Country":"Bangladesh",
-        "GDP_USD_billion":451.86,
+        "GDP_USD_billion":455.86,
         "Year":"2025",
         "Region":"Asia"
+    },
+    {
+        "Country":"Czech Republic",
+        "GDP_USD_billion":452.23,
+        "Year":"2025",
+        "Region":"Europe"
     },
     {
         "Country":"Denmark",
@@ -270,12 +276,6 @@
         "Region":"South America"
     },
     {
-        "Country":"Czech Republic",
-        "GDP_USD_billion":360.23,
-        "Year":"2025",
-        "Region":"Europe"
-    },
-    {
         "Country":"Finland",
         "GDP_USD_billion":319.99,
         "Year":"2025",
@@ -284,6 +284,12 @@
     {
         "Country":"Portugal",
         "GDP_USD_billion":319.93,
+        "Year":"2025",
+        "Region":"Europe"
+    },
+    {
+        "Country":"Hungary",
+        "GDP_USD_billion":312.62,
         "Year":"2025",
         "Region":"Europe"
     },
@@ -324,20 +330,20 @@
         "Region":"Oceania"
     },
     {
-        "Country":"Hungary",
-        "GDP_USD_billion":245.62,
-        "Year":"2025",
-        "Region":"Europe"
-    },
-    {
         "Country":"Qatar",
-        "GDP_USD_billion":226.22,
+        "GDP_USD_billion":240.22,
         "Year":"2025",
         "Region":"Asia"
     },
     {
+        "Country":"Ethiopia",
+        "GDP_USD_billion":230.03,
+        "Year":"2024",
+        "Region":"Africa"
+    },
+    {
         "Country":"Nigeria",
-        "GDP_USD_billion":194.96,
+        "GDP_USD_billion":199.72,
         "Year":"2025",
         "Region":"Africa"
     },
@@ -360,12 +366,6 @@
         "Region":"Asia"
     },
     {
-        "Country":"Ethiopia",
-        "GDP_USD_billion":145.03,
-        "Year":"2024",
-        "Region":"Africa"
-    },
-    {
         "Country":"Slovakia",
         "GDP_USD_billion":142.62,
         "Year":"2024",
@@ -376,6 +376,18 @@
         "GDP_USD_billion":126.24,
         "Year":"2024",
         "Region":"North America"
+    },
+    {
+        "Country":"Uzbekistan",
+        "GDP_USD_billion":125.51,
+        "Year":"2024",
+        "Region":"Asia"
+    },
+    {
+        "Country":"Bulgaria",
+        "GDP_USD_billion":123.42,
+        "Year":"2024",
+        "Region":"Europe"
     },
     {
         "Country":"Ecuador",
@@ -402,12 +414,6 @@
         "Region":"Africa"
     },
     {
-        "Country":"Uzbekistan",
-        "GDP_USD_billion":112.65,
-        "Year":"2024",
-        "Region":"Asia"
-    },
-    {
         "Country":"Guatemala",
         "GDP_USD_billion":112.37,
         "Year":"2024",
@@ -415,15 +421,9 @@
     },
     {
         "Country":"Oman",
-        "GDP_USD_billion":109.99,
+        "GDP_USD_billion":110.99,
         "Year":"2024",
         "Region":"Asia"
-    },
-    {
-        "Country":"Bulgaria",
-        "GDP_USD_billion":108.42,
-        "Year":"2024",
-        "Region":"Europe"
     },
     {
         "Country":"Venezuela",
@@ -541,7 +541,7 @@
     },
     {
         "Country":"Macau",
-        "GDP_USD_billion":53.45,
+        "GDP_USD_billion":55.45,
         "Year":"2024",
         "Region":"Asia"
     },
@@ -660,6 +660,12 @@
         "Region":"Oceania"
     },
     {
+        "Country":"Sudan",
+        "GDP_USD_billion":30.87,
+        "Year":"2024",
+        "Region":"Africa"
+    },
+    {
         "Country":"Zambia",
         "GDP_USD_billion":29.87,
         "Year":"2024",
@@ -676,12 +682,6 @@
         "GDP_USD_billion":28.36,
         "Year":"2024",
         "Region":"North America"
-    },
-    {
-        "Country":"Sudan",
-        "GDP_USD_billion":26.86,
-        "Year":"2024",
-        "Region":"Africa"
     },
     {
         "Country":"Guinea",
@@ -822,6 +822,12 @@
         "Region":"Africa"
     },
     {
+        "Country":"Brunei",
+        "GDP_USD_billion":15.99,
+        "Year":"2024",
+        "Region":"Asia"
+    },
+    {
         "Country":"North Macedonia",
         "GDP_USD_billion":15.87,
         "Year":"2024",
@@ -830,12 +836,6 @@
     {
         "Country":"Kyrgyzstan",
         "GDP_USD_billion":15.77,
-        "Year":"2024",
-        "Region":"Asia"
-    },
-    {
-        "Country":"Brunei",
-        "GDP_USD_billion":15.51,
         "Year":"2024",
         "Region":"Asia"
     },
