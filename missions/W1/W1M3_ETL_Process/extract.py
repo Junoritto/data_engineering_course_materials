@@ -2,7 +2,6 @@ import requests
 from bs4 import BeautifulSoup
 import pandas as pd
 import re
-import os
 from utils import log_message
 
 TARGET_URL = 'https://en.wikipedia.org/wiki/List_of_countries_by_GDP_(nominal)'
@@ -27,7 +26,7 @@ def extract():
     # 컬럼 매핑을 위한 설정 (유지보수 편의성)
     col_mapping = {
         'Country': 0,
-        'GDP_USD_billion': 1,
+        'GDP_USD_million': 1,
         'Year': 2
     }
 
@@ -35,7 +34,7 @@ def extract():
     df = pd.DataFrame([
         {
             'Country': cols[col_mapping['Country']].get_text(strip=True),
-            'GDP_USD_billion': cols[col_mapping['GDP_USD_billion']].get_text(strip=True),
+            'GDP_USD_million': cols[col_mapping['GDP_USD_million']].get_text(strip=True),
             'Year': re.sub(r'\[.*?\]', '', cols[col_mapping['Year']].get_text(strip=True)) # 주석 제거
         }
         for row in rows

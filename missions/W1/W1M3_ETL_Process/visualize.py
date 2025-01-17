@@ -1,8 +1,7 @@
 import pandas as pd
 import sqlite3
-import matplotlib.pyplot as plt
 from utils import log_message
-import os
+from tabulate import tabulate
 
 DB_FILE = 'sqliteDB/World_Economies.db'
 PLOT_PATH = 'results/plots/'
@@ -18,20 +17,12 @@ def visualize_gdp_over_100b():
     with sqlite3.connect(DB_FILE) as conn:
         df = pd.read_sql(query, conn)
     
-    plt.figure(figsize=(12, 6))
-    plt.barh(df['Country'], df['GDP_USD_billion'], color='skyblue')
-    plt.xlabel('GDP (Trillion USD)')
-    plt.ylabel('Country')
-    plt.title('GDP Over 100 Billion USD')
-    plt.gca().invert_yaxis()  # 상위 국가가 위로 오도록
-    plt.tight_layout()
-
-    os.makedirs(PLOT_PATH, exist_ok=True)
-    file_path = os.path.join(PLOT_PATH, 'gdp_over_100b.png')
-    plt.savefig(file_path)
-    plt.close()
-
-    log_message(f"GDP 상위 100B USD 국가 시각화 완료: {file_path}")
+    df.index = range(1, len(df) + 1)
+    # 콘솔에 표 출력
+    print("\n🌍 GDP 100B USD 이상 국가 목록:")
+    print(tabulate(df, headers='keys', tablefmt='grid'))
+    
+    log_message("GDP 100B USD 이상 국가 데이터를 콘솔에 출력 완료.")
 
 
 def visualize_region_avg_gdp():
@@ -50,19 +41,12 @@ def visualize_region_avg_gdp():
     with sqlite3.connect(DB_FILE) as conn:
         df = pd.read_sql(query, conn)
 
-    plt.figure(figsize=(10, 5))
-    plt.bar(df['Region'], df['Avg_GDP'], color='orange')
-    plt.xlabel('Region')
-    plt.ylabel('Average GDP (Trillion USD)')
-    plt.title('Region-wise Top 5 Avg GDP')
-    plt.xticks(rotation=45)
-    plt.tight_layout()
-
-    file_path = os.path.join(PLOT_PATH, 'region_avg_gdp.png')
-    plt.savefig(file_path)
-    plt.close()
-
-    log_message(f"Region별 평균 GDP 시각화 완료: {file_path}")
+    df.index = range(1, len(df) + 1)
+    # 콘솔에 표 출력
+    print("\n📊 Region별 상위 5개 국가의 GDP 평균:")
+    print(tabulate(df, headers='keys', tablefmt='grid'))
+    
+    log_message("Region별 상위 5개 국가의 평균 GDP 데이터를 콘솔에 출력 완료.")
 
 
 if __name__ == '__main__':
