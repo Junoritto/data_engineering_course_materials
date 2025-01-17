@@ -164,3 +164,4 @@ data/
 **/*.csv
 **/*.json
 **/*_log.txt
+**/*.db
