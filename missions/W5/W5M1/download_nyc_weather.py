@@ -54,3 +54,6 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+# Run the script
+# python download_nyc_weather.py --start 2020 --end 2022
